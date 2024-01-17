@@ -96,6 +96,17 @@ img {
     
 }
 
+.header-navigation-item:first-child::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+    flex-shrink: 0;
+    
+}
+
 .header-navigation-link {
     color: #2E2F42;
         font-size: 16px;
@@ -114,7 +125,7 @@ img {
 
 .header-navigation-link:active {
     color: #404BBF;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .header-address {
@@ -153,6 +164,10 @@ img {
 
 .hero { 
     background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 188px 0;
 }
 
