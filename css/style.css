@@ -125,7 +125,6 @@ img {
 
 .header-navigation-link:active {
     color: #404BBF;
-    /* text-decoration: underline; */
 }
 
 .header-address {
@@ -224,6 +223,14 @@ max-width: 496px;
 .features {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.icon-container {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
 }
 
 .visually-hidden {
